@@ -3,10 +3,12 @@ import { Provider as PaperProvider } from 'react-native-paper';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { DashboardScreen } from './src/presentation/screens/DashboardScreen';
-import { NuevaVentaScreen } from './src/presentation/screens/NuevaVentaScreen'; // ← NUEVA IMPORTACIÓN
+import { NuevaVentaScreen } from './src/presentation/screens/NuevaVentaScreen';
+import { MisVentasScreen } from './src/presentation/screens/MisVentasScreen'; // ← NUEVA IMPORTACIÓN
 
 
 const Stack = createNativeStackNavigator();
+
 
 
 export default function App() {
@@ -15,7 +17,8 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator initialRouteName="Dashboard">
           <Stack.Screen name="Dashboard" component={DashboardScreen} options={{ headerShown: false }} />
-          <Stack.Screen name="NuevaVenta" component={NuevaVentaScreen} options={{ title: 'Nueva Venta' }} /> {/* ← NUEVA PANTALLA */}
+          <Stack.Screen name="NuevaVenta" component={NuevaVentaScreen} options={{ title: 'Nueva Venta' }} />
+          <Stack.Screen name="MisVentas" component={MisVentasScreen} options={{ headerShown: false }} /> {/* ← NUEVA PANTALLA */}
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>
