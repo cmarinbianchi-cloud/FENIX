@@ -5,11 +5,21 @@ import DB from '../../data/db/DatabaseManager';
 import { MesComercialRepository } from '../../data/repositories/MesComercialRepository';
 import { MesComercial } from '../../domain/entities/MesComercial';
 
-export const DashboardScreen = ({ navigation }: any) => {
+
+export const DashboardScreen = ({ navigation, route }: any) => {
   const theme = useTheme();
   const [agente] = useState('CARLOS'); // stub
   const [mesActual, setMesActual] = useState<MesComercial | null>(null);
   const [metrics, setMetrics] = useState({ val1: 0, val4: 0, val8: 0 }); // stubs
+
+
+  const reloadMetrics = async () => {
+    const db = await DB.open();
+    const repo = new MesComercialRepository(db);
+    // TODO leer ventas reales y recalcular métricas
+    setMetrics({ val1: 45000, val4: 7, val8: 3 });
+  };
+
 
   useEffect(() => {
     (async () => {
@@ -31,6 +41,14 @@ export const DashboardScreen = ({ navigation }: any) => {
     })();
   }, []);
 
+
+  useEffect(() => {
+    if (route.params?.updated) {
+      reloadMetrics();
+    }
+  }, [route.params]);
+
+
   return (
     <>
       <Appbar.Header>
@@ -39,10 +57,12 @@ export const DashboardScreen = ({ navigation }: any) => {
         <Appbar.Action icon="bell" onPress={() => {}} />
       </Appbar.Header>
 
+
       <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.container}>
         <Text variant="headlineSmall" style={styles.greeting}>HOLA, {agente}</Text>
         <Text variant="titleMedium" style={styles.sub}>MES COMERCIAL ACTUAL</Text>
         <Text variant="headlineMedium" style={styles.month}>{mesActual?.nombre}</Text>
+
 
         <Card mode="elevated" style={styles.card}>
           <Card.Title title="Sepulturas" />
@@ -52,6 +72,7 @@ export const DashboardScreen = ({ navigation }: any) => {
           </Card.Content>
         </Card>
 
+
         <Card mode="elevated" style={styles.card}>
           <Card.Title title="Cinerario" />
           <Card.Content>
@@ -59,12 +80,14 @@ export const DashboardScreen = ({ navigation }: any) => {
           </Card.Content>
         </Card>
 
+
         <Card mode="elevated" style={styles.card}>
           <Card.Title title="Asistencias" />
           <Card.Content>
             <MetricRow color={theme.colors.primary} label="Serv. adic." value={metrics.val8} />
           </Card.Content>
         </Card>
+
 
         <View style={styles.actions}>
           <Button mode="contained" onPress={() => navigation.navigate('NuevaVenta')}>NUEVA VENTA</Button>
@@ -77,12 +100,14 @@ export const DashboardScreen = ({ navigation }: any) => {
   );
 };
 
+
 const MetricRow = ({ color, label, value }: any) => (
   <View style={styles.row}>
     <Text variant="bodyLarge">{label}</Text>
     <Text variant="bodyLarge" style={{ color }}>{value.toLocaleString('es-CL')}</Text>
   </View>
 );
+
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 16 },
@@ -93,3 +118,4 @@ const styles = StyleSheet.create({
   row: { flexDirection: 'row', justifyContent: 'space-between', paddingVertical: 4 },
   actions: { marginTop: 16, gap: 8 },
 });
+

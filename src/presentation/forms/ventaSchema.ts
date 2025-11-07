@@ -1,6 +1,8 @@
 import * as yup from 'yup';
 
+
 const RUT_CHILENO = /^[0-9]{1,8}-[0-9kK]$/;
+
 
 export const ventaSchema = yup.object({
   // CLIENTE
@@ -10,6 +12,7 @@ export const ventaSchema = yup.object({
   telefonoCliente: yup.string().max(50),
   emailCliente: yup.string().email(),
 
+
   // FALLECIDO
   esVt: yup.boolean().default(false),
   rutFallecido: yup.string().when('esVt', { is: false, then: s => s.matches(RUT_CHILENO).required() }),
@@ -17,11 +20,13 @@ export const ventaSchema = yup.object({
   fechaNacFallecido: yup.date().when('esVt', { is: false, then: s => s.max(new Date()).required() }),
   fechaDefuncion: yup.date().when('esVt', { is: false, then: s => s.max(new Date()).required() }),
 
+
   // VENTA GENERAL
   fechaVenta: yup.date().max(new Date()).required(),
   tipo: yup.string().oneOf(['Sepultura', 'Cinerario', 'Servicio Adicional']).required(),
   unidadNegocio: yup.string().oneOf(['PAV', 'PAV2', 'PCO', 'PPH']).required(),
   funerariaId: yup.number().positive().required(),
+
 
   // SEPULTURA
   valorTotal: yup.number().positive().when('tipo', { is: 'Sepultura', then: s => s.required() }),
@@ -31,9 +36,14 @@ export const ventaSchema = yup.object({
   fechaPrimeraCuota: yup.date().when('tipo', { is: 'Sepultura', then: s => s.required() }),
   medioPago: yup.string().oneOf(['PAC', 'PAT', 'Personal']).when('tipo', { is: 'Sepultura', then: s => s.required() }),
 
+
   // CINERARIO
   valorVentaCinerario: yup.number().positive().when('tipo', { is: 'Cinerario', then: s => s.required() }),
+
 
   // SERVICIOS
   serviciosIds: yup.array(yup.number()).when('tipo', { is: 'Servicio Adicional', then: s => s.min(1) }),
 });
+
+export type VentaFormValues = typeof ventaSchema.__outputType;
+export type VentaFormValuesEdit = VentaFormValues & { ventaId: number };
