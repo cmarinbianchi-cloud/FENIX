@@ -6,7 +6,8 @@ import { DashboardScreen } from './src/presentation/screens/DashboardScreen';
 import { NuevaVentaScreen } from './src/presentation/screens/NuevaVentaScreen';
 import { MisVentasScreen } from './src/presentation/screens/MisVentasScreen';
 import { DetalleVentaScreen } from './src/presentation/screens/DetalleVentaScreen';
-import { EditarVentaScreen } from './src/presentation/screens/EditarVentaScreen'; // ← NUEVA IMPORTACIÓN
+import { EditarVentaScreen } from './src/presentation/screens/EditarVentaScreen';
+import { PostVentaStack } from './src/presentation/screens/PostVentaStack'; // ← NUEVA IMPORTACIÓN
 
 
 
@@ -24,11 +25,13 @@ export default function App() {
           <Stack.Screen name="NuevaVenta" component={NuevaVentaScreen} options={{ title: 'Nueva Venta' }} />
           <Stack.Screen name="MisVentas" component={MisVentasScreen} options={{ headerShown: false }} />
           <Stack.Screen name="DetalleVenta" component={DetalleVentaScreen} options={{ headerShown: false }} />
-          <Stack.Screen name="EditarVenta" component={EditarVentaScreen} options={{ headerShown: false }} /> {/* ← NUEVA PANTALLA */}
+          <Stack.Screen name="EditarVenta" component={EditarVentaScreen} options={{ headerShown: false }} />
+          <Stack.Screen name="PostVenta" component={PostVentaStack} options={{ headerShown: false }} /> {/* ← NUEVA PANTALLA */}
         </Stack.Navigator>
       </NavigationContainer>
     </PaperProvider>
   );
 }
+
 
 
