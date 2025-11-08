@@ -12,5 +12,8 @@
     "react-native-share": "^12.2.0",
     "react-native-sqlite-storage": "^6.0.1",
     "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^20.0.2"
   }
 }
