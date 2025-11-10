@@ -2,16 +2,13 @@ import React, { useLayoutEffect } from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';
 import { Appbar, Button, Searchbar, FAB, Text, ActivityIndicator } from 'react-native-paper';
 import { useMisVentas } from './useMisVentas';
-import { FiltrosChips } from './components/FiltrosChips';
 import { VentaCard } from './components/VentaCard';
-import { ExportarDialog } from './components/ExportarDialog';
+import { ExportarDialog } from '../../components/ExportarDialog';
 
-
-export const MisVentasScreen = ({ navigation }) => {
+export const MisVentasScreen = ({ navigation }: any) => {
   const { ventas, cargando, filtros, setFiltros, setTextoDeb, listar } = useMisVentas();
   const [search, setSearch] = React.useState('');
   const [exportOpen, setExportOpen] = React.useState(false);
-
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -25,24 +22,20 @@ export const MisVentasScreen = ({ navigation }) => {
     });
   }, [navigation]);
 
-
   const onChangeSearch = (q: string) => {
     setSearch(q);
     setTextoDeb(q);
   };
-
 
   const onClearFiltros = () => {
     setFiltros({ meses: [], tipos: [], funerarias: [], devengado: null, obsNot: [], texto: '', textoEsRut: true });
     setSearch('');
   };
 
-
   return (
     <View style={{ flex: 1 }}>
       <Searchbar placeholder="RUT o Nombre" value={search} onChangeText={onChangeSearch} style={styles.search} />
       <FiltrosChips filtros={filtros} setFiltros={setFiltros} onClear={onClearFiltros} />
-
 
       {cargando ? (
         <ActivityIndicator style={{ marginTop: 32 }} />
@@ -55,20 +48,12 @@ export const MisVentasScreen = ({ navigation }) => {
         </ScrollView>
       )}
 
-
       <FAB icon="plus" onPress={() => navigation.navigate('NuevaVenta')} style={styles.fab} />
 
-
-      <ExportarDialog 
-        visible={exportOpen} 
-        onClose={() => setExportOpen(false)} 
-        filters={filtros}
-        ventas={ventas}
-      />
+      <ExportarDialog visible={exportOpen} onClose={() => setExportOpen(false} ventas={ventas} />
     </View>
   );
 };
-
 
 const styles = StyleSheet.create({
   search: { margin: 8 },

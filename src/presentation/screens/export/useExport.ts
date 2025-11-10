@@ -1,12 +1,10 @@
 import { useState } from 'react';
-import { ExportRow } from '../../../domain/entities/ExportRow';
 import { ExportRepository } from '../../../data/repositories/ExportRepository';
 import { ExportService } from '../../../domain/services/ExportService';
 import DB from '../../../data/db/DatabaseManager';
 
-export function useExport(filters: Parameters<ExportRepository['getRows']>[0]) {
+export function useExport(filters: any) {
   const [generando, setGenerando] = useState(false);
-
   const repo = new ExportRepository(DB.db!);
   const svc = new ExportService();
 
