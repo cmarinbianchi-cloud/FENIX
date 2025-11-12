@@ -4,18 +4,40 @@ buildscript {
     ext {
         buildToolsVersion = "33.0.0"
         minSdkVersion = 21
-        compileSdkVersion = 33
-        targetSdkVersion = 33
-
-        // We use NDK 23 which has both M1 support and is the side-by-side NDK version from AGP.
+        compileSdkVersion = 34 // Actualizado a 34
+        targetSdkVersion = 34 // Actualizado a 34
         ndkVersion = "23.1.7779620"
+        
+        // Versión de Kotlin. Necesario para AGP moderno.
+        kotlinVersion = "1.9.22"
     }
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        // AGREGAR LA VERSIÓN DE AGP 8.3.0 AQUÍ. Compatible con Gradle 8.5
+        classpath("com.android.tools.build:gradle:8.3.0")
+        
+        // Plugin de Kotlin. Es crucial agregarlo.
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
+        
         classpath("com.facebook.react:react-native-gradle-plugin")
     }
+}
+
+allprojects {
+    repositories {
+        maven {
+            // All of React Native's artifacts are now available in the maven repository
+            url("$rootDir/../node_modules/react-native/android")
+        }
+        google()
+        mavenCentral()
+        maven { url 'https://www.jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
