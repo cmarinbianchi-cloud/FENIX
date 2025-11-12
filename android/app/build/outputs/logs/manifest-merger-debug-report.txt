@@ -1,0 +1,343 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:1:1-25:12
+MERGED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:1:1-25:12
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\52180b80599dc3b7dc7c403dcd4fa17d\transformed\jetified-flipper-network-plugin-0.182.0\AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\30388b21f9f505387ee02d0a3ff58dbe\transformed\jetified-flipper-fresco-plugin-0.182.0\AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:8:1-18:12
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:2:1-24:12
+MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a527bfb876bf5eea01f3189972d3e34f\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0595b1cc832aab260568ed13547df93f\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b5fd83221a4a7924a5b1eebdc9e7855f\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\877264d932779f52f3e9474d03814f0e\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7a6b4edff39a995d5cf82eb1b4934978\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e23243f18179c1814e7478aac256e9b5\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\bcd9f813ebd5df8349178010e9fc38ec\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c48b36b6969b1499cb21460ce20883a0\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\4f5a3f8e94405b6336b43a4f4192711a\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\739d24b41e3d25b30201640ba9370ac2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9a878e73ce071f0c820564b92c4d57cb\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\721e153de5dfbfc099653b065b9084bf\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9f721389f7b9dc2fb682df76736e7a30\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\f0a13ec1014a7e7c5791e78623cf054a\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\07d6bc9941c3c696d2d2ab1ca58c25ef\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\cbc65be0553a256a5e933d39090eb174\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\700539e9c7fdf22ff40e72000308a327\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\93f1c9a75d8b9e90327287af1cb2b663\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e4d31ae93a4045b5739699884e9cca2e\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1670f1006b32fbaef8049f6c7ae69b12\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e1abbde0df72daa15c66fa7af01c3d88\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\97ae17c2988331f69c366bd9301228bb\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\531b45dd52718400bf5eb15059acbd30\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1f501e78943841ec1ab73b0cb6f38b99\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c7df93aa19be9978df856a6c7c6c1bd4\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\fa7c80798fdd62eef90261e3665820dd\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e3ff819f5a6bfcb829e7dcdf8eba0e73\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0bed4042cd8a19f0037d56afc5644e02\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ded642284a6d45380af1b86af080da28\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\dbfb8a2904cfd8bcc0f0927fe99e1579\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b98e9eb8e2c15304c29af84ea7429441\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e67895b88fd3ad47f5e6a900a4c97fc8\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\d4ee1780a28ffbca5e959413c67479cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5b89ca10e160ae861e328e9a39b7dc27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\08a15f0d0bd765c66c7fef8cc9a48c9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c2d522b252c8aa15215ab7e790a5fc2f\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\314d2fc5b6acfae5f4771cb7dc9b6e10\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6f2a42f8c100826cf5b2c5899db2e83a\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0c71427cd58354ad9ae48047d26e715d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ac80f9faf3104b904bf24412e69ec413\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b3f863bc21315645e76c89be71f75430\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ca18c21aafff734db6daefff8146dc27\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5ee0dfe2599f90457c8f7b88cb35800b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7c86e9abe9e7f0da5452cd86c3ca881d\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6916d8508e14ec8d08168dad5f43d26a\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\3a9b9f841272cb9829edfa2a2216ff19\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\68c704e13e713d6a64a4e2e79ce21b64\transformed\jetified-openssl-1.1.1l-beta-1\AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\43b73389c2adf9ade6371f36daaa74d3\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:15:5-67
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:3:22-64
+application
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:5:5-24:19
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ca18c21aafff734db6daefff8146dc27\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ca18c21aafff734db6daefff8146dc27\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:7:7-39
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:7:7-39
+	tools:ignore
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:9:7-52
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:9:7-52
+	tools:targetApi
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:8:7-41
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:8:7-41
+	android:allowBackup
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:10:7-34
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:10:7-34
+	android:theme
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:11:7-38
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:11:7-38
+	android:usesCleartextTraffic
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:8:9-44
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:6:7-38
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:6:7-38
+activity#com.tempproject.MainActivity
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:12:7-23:18
+	android:label
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:14:9-41
+	android:launchMode
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:16:9-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:exported
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:18:9-32
+	android:configChanges
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:15:9-118
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:13:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:23-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:5-78
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:11:9-111
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:19:9-21:40
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:11:19-83
+uses-sdk
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\52180b80599dc3b7dc7c403dcd4fa17d\transformed\jetified-flipper-network-plugin-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\52180b80599dc3b7dc7c403dcd4fa17d\transformed\jetified-flipper-network-plugin-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\30388b21f9f505387ee02d0a3ff58dbe\transformed\jetified-flipper-fresco-plugin-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\30388b21f9f505387ee02d0a3ff58dbe\transformed\jetified-flipper-fresco-plugin-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\399b714bda54e95c7363d354631a79a5\transformed\jetified-react-android-0.73.0-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a527bfb876bf5eea01f3189972d3e34f\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.73.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a527bfb876bf5eea01f3189972d3e34f\transformed\jetified-hermes-android-0.73.0-debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0595b1cc832aab260568ed13547df93f\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0595b1cc832aab260568ed13547df93f\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b5fd83221a4a7924a5b1eebdc9e7855f\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b5fd83221a4a7924a5b1eebdc9e7855f\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\877264d932779f52f3e9474d03814f0e\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\877264d932779f52f3e9474d03814f0e\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7a6b4edff39a995d5cf82eb1b4934978\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7a6b4edff39a995d5cf82eb1b4934978\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e23243f18179c1814e7478aac256e9b5\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e23243f18179c1814e7478aac256e9b5\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\bcd9f813ebd5df8349178010e9fc38ec\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\bcd9f813ebd5df8349178010e9fc38ec\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c48b36b6969b1499cb21460ce20883a0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c48b36b6969b1499cb21460ce20883a0\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\4f5a3f8e94405b6336b43a4f4192711a\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\4f5a3f8e94405b6336b43a4f4192711a\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\739d24b41e3d25b30201640ba9370ac2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\739d24b41e3d25b30201640ba9370ac2\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9a878e73ce071f0c820564b92c4d57cb\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9a878e73ce071f0c820564b92c4d57cb\transformed\jetified-flipper-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\721e153de5dfbfc099653b065b9084bf\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\721e153de5dfbfc099653b065b9084bf\transformed\jetified-stetho-2.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9f721389f7b9dc2fb682df76736e7a30\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\9f721389f7b9dc2fb682df76736e7a30\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\f0a13ec1014a7e7c5791e78623cf054a\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\f0a13ec1014a7e7c5791e78623cf054a\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\07d6bc9941c3c696d2d2ab1ca58c25ef\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\07d6bc9941c3c696d2d2ab1ca58c25ef\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\cbc65be0553a256a5e933d39090eb174\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\cbc65be0553a256a5e933d39090eb174\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\700539e9c7fdf22ff40e72000308a327\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\700539e9c7fdf22ff40e72000308a327\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\93f1c9a75d8b9e90327287af1cb2b663\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\93f1c9a75d8b9e90327287af1cb2b663\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e4d31ae93a4045b5739699884e9cca2e\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e4d31ae93a4045b5739699884e9cca2e\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1670f1006b32fbaef8049f6c7ae69b12\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1670f1006b32fbaef8049f6c7ae69b12\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e1abbde0df72daa15c66fa7af01c3d88\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e1abbde0df72daa15c66fa7af01c3d88\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\97ae17c2988331f69c366bd9301228bb\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\97ae17c2988331f69c366bd9301228bb\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\531b45dd52718400bf5eb15059acbd30\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\531b45dd52718400bf5eb15059acbd30\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1f501e78943841ec1ab73b0cb6f38b99\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\1f501e78943841ec1ab73b0cb6f38b99\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c7df93aa19be9978df856a6c7c6c1bd4\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c7df93aa19be9978df856a6c7c6c1bd4\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\fa7c80798fdd62eef90261e3665820dd\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\fa7c80798fdd62eef90261e3665820dd\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e3ff819f5a6bfcb829e7dcdf8eba0e73\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e3ff819f5a6bfcb829e7dcdf8eba0e73\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0bed4042cd8a19f0037d56afc5644e02\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0bed4042cd8a19f0037d56afc5644e02\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ded642284a6d45380af1b86af080da28\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ded642284a6d45380af1b86af080da28\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\dbfb8a2904cfd8bcc0f0927fe99e1579\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\dbfb8a2904cfd8bcc0f0927fe99e1579\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b98e9eb8e2c15304c29af84ea7429441\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b98e9eb8e2c15304c29af84ea7429441\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e67895b88fd3ad47f5e6a900a4c97fc8\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\e67895b88fd3ad47f5e6a900a4c97fc8\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\d4ee1780a28ffbca5e959413c67479cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\d4ee1780a28ffbca5e959413c67479cd\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5b89ca10e160ae861e328e9a39b7dc27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5b89ca10e160ae861e328e9a39b7dc27\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\08a15f0d0bd765c66c7fef8cc9a48c9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\08a15f0d0bd765c66c7fef8cc9a48c9a\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c2d522b252c8aa15215ab7e790a5fc2f\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\c2d522b252c8aa15215ab7e790a5fc2f\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\314d2fc5b6acfae5f4771cb7dc9b6e10\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\314d2fc5b6acfae5f4771cb7dc9b6e10\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6f2a42f8c100826cf5b2c5899db2e83a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6f2a42f8c100826cf5b2c5899db2e83a\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0c71427cd58354ad9ae48047d26e715d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\0c71427cd58354ad9ae48047d26e715d\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ac80f9faf3104b904bf24412e69ec413\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ac80f9faf3104b904bf24412e69ec413\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b3f863bc21315645e76c89be71f75430\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\b3f863bc21315645e76c89be71f75430\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ca18c21aafff734db6daefff8146dc27\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ca18c21aafff734db6daefff8146dc27\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5ee0dfe2599f90457c8f7b88cb35800b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\5ee0dfe2599f90457c8f7b88cb35800b\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7c86e9abe9e7f0da5452cd86c3ca881d\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\7c86e9abe9e7f0da5452cd86c3ca881d\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6916d8508e14ec8d08168dad5f43d26a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\6916d8508e14ec8d08168dad5f43d26a\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\3a9b9f841272cb9829edfa2a2216ff19\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\3a9b9f841272cb9829edfa2a2216ff19\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\68c704e13e713d6a64a4e2e79ce21b64\transformed\jetified-openssl-1.1.1l-beta-1\AndroidManifest.xml:2:2-70
+MERGED from [com.android.ndk.thirdparty:openssl:1.1.1l-beta-1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\68c704e13e713d6a64a4e2e79ce21b64\transformed\jetified-openssl-1.1.1l-beta-1\AndroidManifest.xml:2:2-70
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\43b73389c2adf9ade6371f36daaa74d3\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.5.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\43b73389c2adf9ade6371f36daaa74d3\transformed\jetified-fbjni-0.5.1\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\09e226558b5c307f07b35b21bc8ba640\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\ae60e9f0c7adf80003872e25a791770b\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\a076b8d108ceb069b41eaef8ed314c29\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.tempproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.tempproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\198a68c52883d6d8fc20d6b654fed32a\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
