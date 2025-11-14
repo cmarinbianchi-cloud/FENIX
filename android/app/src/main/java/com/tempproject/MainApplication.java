@@ -1,7 +1,8 @@
 package com.tempproject;
 
 import android.app.Application;
-import com.facebook.react.PackageList;
+// La siguiente línea (PackageList) se elimina porque ya no existe en RN 0.73
+// import com.facebook.react.PackageList; 
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -19,14 +20,20 @@ public class MainApplication extends Application implements ReactApplication {
           return BuildConfig.DEBUG;
         }
 
+        // SE ELIMINA EL MÉTODO 'getPackages()'
+        // La nueva versión de React Native (0.73) y el nuevo plugin de Gradle
+        // manejan esto automáticamente. Al eliminar este bloque,
+        // usamos la implementación correcta de la librería base.
+        /*
         @Override
         protected List<ReactPackage> getPackages() {
           @SuppressWarnings("UnnecessaryLocalVariable")
-          List<ReactPackage> packages = new PackageList(this).getPackages();
+          List<ReactPackage> packages = new PackageList(this).getPackages(); // <-- ESTA LÍNEA CAUSA EL ERROR
           // Packages that cannot be autolinked yet can be added manually here, for example:
           // packages.add(new MyReactNativePackage());
           return packages;
         }
+        */
 
         @Override
         protected String getJSMainModuleName() {
@@ -57,6 +64,8 @@ public class MainApplication extends Application implements ReactApplication {
       // If you opted-in for the New Architecture, we load the native entry point for this app.
       DefaultNewArchitectureEntryPoint.load();
     }
-    ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+    // Asegúrate de que esta línea exista, puede que falte en tu archivo de depuración
+    // ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
   }
 }
+
