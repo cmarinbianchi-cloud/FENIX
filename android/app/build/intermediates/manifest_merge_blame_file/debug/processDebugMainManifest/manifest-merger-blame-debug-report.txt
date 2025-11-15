@@ -12,8 +12,8 @@
 11-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:5:5-77
 11-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:3:5-67
-12-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:3:22-64
+12-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 13-->[com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:5-76
 13-->[com.facebook.flipper:flipper:0.182.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\79ee21251548b578d162cd04ffd9b179\transformed\jetified-flipper-0.182.0\AndroidManifest.xml:16:22-73
@@ -30,23 +30,23 @@
 19-->[androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 20
 21    <application
-21-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:5:5-24:19
+21-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:6:5-25:19
 22        android:name="com.tempproject.MainApplication"
-22-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:6:7-38
+22-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:7:9-40
 23        android:allowBackup="false"
-23-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:10:7-34
+23-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:11:9-36
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 24-->[androidx.core:core:1.9.0] C:\Users\CRISTOBAL\.gradle\caches\transforms-3\edb9a513f52dd5af9f500e9e184895d9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="true"
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:8:7-41
+27-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:9:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:7:7-39
+28-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:8:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:9:7-52
+29-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:10:9-54
 30        android:theme="@style/AppTheme"
-30-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:11:7-38
+30-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:12:9-40
 31        android:usesCleartextTraffic="true" >
 31-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:8:9-44
 32        <activity
@@ -56,28 +56,28 @@
 34            android:exported="false" />
 34-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\debug\AndroidManifest.xml:11:84-108
 35        <activity
-35-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:12:7-23:18
+35-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:13:9-24:20
 36            android:name="com.tempproject.MainActivity"
-36-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:13:9-37
+36-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:14:13-41
 37            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-37-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:15:9-118
+37-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:16:13-122
 38            android:exported="true"
-38-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:18:9-32
+38-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:19:13-36
 39            android:label="@string/app_name"
-39-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:14:9-41
+39-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:15:13-45
 40            android:launchMode="singleTask"
-40-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:16:9-40
+40-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:17:13-44
 41            android:windowSoftInputMode="adjustResize" >
-41-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:17:9-51
+41-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:18:13-55
 42            <intent-filter>
-42-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:19:9-22:25
+42-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:20:13-23:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:20:13-65
-43-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:20:21-62
+43-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:17-69
+43-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:13-73
-45-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:21:23-70
+45-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:22:17-77
+45-->C:\Users\CRISTOBAL\Documents\GitHub\FENIX\android\app\src\main\AndroidManifest.xml:22:27-74
 46            </intent-filter>
 47        </activity>
 48
