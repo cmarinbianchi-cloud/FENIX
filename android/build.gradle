@@ -21,17 +21,11 @@ buildscript {
         
         // Plugin de Kotlin. Es crucial agregarlo.
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
-        
-        classpath("com.facebook.react:react-native-gradle-plugin")
     }
 }
 
 allprojects {
     repositories {
-        maven {
-            // All of React Native's artifacts are now available in the maven repository
-            url("$rootDir/../node_modules/react-native/android")
-        }
         google()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
